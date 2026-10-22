@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Post new ESO news
+      - name: Post new Elder Scrolls Online News
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           ESO_AGE_COOKIE: ${{ secrets.ESO_AGE_COOKIE }}
