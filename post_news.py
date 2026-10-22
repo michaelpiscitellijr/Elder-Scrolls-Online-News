@@ -130,7 +130,7 @@ def post_to_discord(webhook, post):
     if ts:
         embed["timestamp"] = ts
 
-    data = json.dumps({"username": "ESO News", "embeds": [embed]}).encode()
+    data = json.dumps({"username": "Elder Scrolls Online News", "embeds": [embed]}).encode()
     req = urllib.request.Request(
         webhook,
         data=data,
